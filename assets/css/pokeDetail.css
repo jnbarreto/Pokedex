@@ -1,0 +1,126 @@
+.Bnormal {
+    background-image: url('../img/normal.jpg');
+}
+.Bgrass {
+    background-image: url('../img/grass.jpg');
+}
+.Bfire {
+    background-image:url('../img/fire.jpg');
+}
+.Bwater {
+    background-image:url('../img/water.jpg');
+}
+.Belectric {
+    background-image:url('../img/electric.jpg');
+}
+.Bice {
+    background-image: url('../img/ice.jpg');
+}
+.Bground {
+    background-image: url('../img/ground.jpg');
+}
+.Bflying {
+    background-image: url('../img/flying.jpg');
+}
+.Bpoison {
+    background-image: url('../img/poison.jpg');
+}
+.Bfighting {
+    background-image: url('../img/fighting.jpg');
+}
+.Bpsychic {
+    background-image: url('../img/psychic.jpg');
+}
+.Bdark {
+    background-image: url('../img/dark.jpg');
+}
+.Brock {
+    background-image: url('../img/rock.jpg');
+}
+.Bbug {
+    background-image: url('../img/bug.jpg');
+}
+.Bghost {
+    background-image: url('../img/ghost.jpg');
+}
+.Bsteel {
+    background-image: url('../img/steel.jpg');
+}
+.Bdragon {
+    background-image: url('../img/dragon.jpg');
+}
+.Bfairy {
+    background-image: url('../img/fairy.jpg');
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #ecedee;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.barra {
+    color:transparent;
+    max-height: 0.938rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    margin: 0;
+    margin-bottom: 0.875rem;
+}
+
+.barra div {
+    max-height: 0.938rem;
+    border-radius: .625rem;
+    background-color: rgb(0, 152, 202.1);
+    transition: all 300ms;
+    border: 0.063rem rgb(0, 0, 0.50) solid;
+}
+
+.content-pokemon-detail, .contentDetail {
+    color: #fff;
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+
+.detail-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-stats h3{
+    margin:0;
+    font-size: .938rem;
+}
+
+.detail-stats span{
+    margin-right: 1rem;
+    font-size: .938rem;
+}
+
+.contentDetail h1 {
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.8); /* Adiciona uma borda com brilho */
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 550px) {
+    .contentDetail {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 550px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
