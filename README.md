@@ -1,2 +1,4 @@
 # Pokedex
-Integração com API dos Pokemon
+Integração com PokeAPI
+listagem de pokemons
+detalhamento do pokemon com a estatistica dele
